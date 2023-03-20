@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 12]矩阵中的路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.java" />
+              <option name="titleSlug" value="ju-zhen-zhong-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java">
           <value>
             <LeetcodeEditor>
@@ -47,6 +58,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 34]二叉树中和为某一值的路径.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 34]二叉树中和为某一值的路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 34" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 34]二叉树中和为某一值的路径.java" />
+              <option name="titleSlug" value="er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 36]二叉搜索树与双向链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 36" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 48]最长不含重复字符的子字符串.java">
           <value>
             <LeetcodeEditor>
@@ -69,6 +102,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 54]二叉搜索树的第k大节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 54" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 57]和为s的两个数字.java">
           <value>
             <LeetcodeEditor>
@@ -88,6 +132,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 58 - I]翻转单词顺序.java" />
               <option name="titleSlug" value="fan-zhuan-dan-ci-shun-xu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[面试题13]机器人的运动范围.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[面试题13]机器人的运动范围.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题13" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[面试题13]机器人的运动范围.java" />
+              <option name="titleSlug" value="ji-qi-ren-de-yun-dong-fan-wei-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
