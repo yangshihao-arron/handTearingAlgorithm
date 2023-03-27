@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 16]数值的整数次方.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 16]数值的整数次方.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 16" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 16]数值的整数次方.java" />
+              <option name="titleSlug" value="shu-zhi-de-zheng-shu-ci-fang-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 18]删除链表的节点.java">
           <value>
             <LeetcodeEditor>
@@ -66,6 +77,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 25]合并两个排序的链表.java" />
               <option name="titleSlug" value="he-bing-liang-ge-pai-xu-de-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 33]二叉搜索树的后序遍历序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/doc/content/[剑指 Offer 33]二叉搜索树的后序遍历序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 33" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../leetcodeSourceCode/leetcode/editor/cn/[剑指 Offer 33]二叉搜索树的后序遍历序列.java" />
+              <option name="titleSlug" value="er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
