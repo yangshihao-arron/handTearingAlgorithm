@@ -7,7 +7,7 @@ public class Q69 {
         int ans = 0;
         while (left <= right) {
             int mid = (right - left) / 2 + left;
-            if (mid * mid <= x) {
+            if ((long)mid * mid <= x) {  //没有(long)会报错 2147395599 输出2147395599  预期结果46339
                 ans = mid;
                 left = mid + 1;
             } else {
