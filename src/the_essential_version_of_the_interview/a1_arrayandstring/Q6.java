@@ -1,4 +1,4 @@
-package the_essential_version_of_the_interview.a1_10;
+package the_essential_version_of_the_interview.a1_arrayandstring;
 
 public class Q6 {
     public String reverseWords(String s) {

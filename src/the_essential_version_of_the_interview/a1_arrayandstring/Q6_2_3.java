@@ -1,6 +1,6 @@
-package the_essential_version_of_the_interview.a1_10;
+package the_essential_version_of_the_interview.a1_arrayandstring;
 
-public class Q62_3 {
+public class Q6_2_3 {
     public String reverseWords(String s) {
         // 删除首尾空格
         s = s.trim();
