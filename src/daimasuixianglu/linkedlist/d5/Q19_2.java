@@ -1,6 +1,9 @@
 package daimasuixianglu.linkedlist.d5;
 
-public class Q19 {
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class Q19_2 {
 
     class ListNode {
         int val;
@@ -22,15 +25,17 @@ public class Q19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
         ListNode dummyHead = new ListNode(-1,head);
-        ListNode fast = dummyHead, slow = dummyHead;
+        Deque<ListNode> stack = new LinkedList<>();
+        ListNode cur = dummyHead;
+        while(cur != null){
+            stack.push(cur);
+            cur = cur.next;
+        }
         for(int i = 0; i < n; i++){
-            fast = fast.next;
+            stack.pop();
         }
-        while(fast.next != null){
-            slow = slow.next;
-            fast = fast.next;
-        }
-        slow.next = slow.next.next;
+        ListNode prev = stack.pop();
+        prev.next = prev.next.next;
         return dummyHead.next;
     }
 }
