@@ -1,29 +1,32 @@
 package daimasuixianglu.a6_stack_and_queue.d16;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Q239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        int n = nums.length;
-        PriorityQueue<int[]> pq = new PriorityQueue<int[]>(new Comparator<int[]>() {
-            public int compare(int[] pair1, int[] pair2) {
-                return pair1[0] != pair2[0] ? pair2[0] - pair1[0] : pair2[1] - pair1[1];
+        if(nums == null || nums.length < 2) return nums;
+        // 双向队列 保存当前窗口最大值的数组位置 保证队列中数组位置的数值按从大到小排序
+        Deque<Integer> queue = new LinkedList();
+        // 结果数组
+        int[] result = new int[nums.length-k+1];
+        // 遍历nums数组
+        for(int i = 0;i < nums.length;i++){
+            // 保证从大到小 如果前面数小则需要依次弹出，直至满足要求
+            while(!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]){
+                queue.pollLast();
             }
-        });
-
-        for (int i = 0; i < k; ++i) {
-            pq.offer(new int[]{nums[i], i});
-        }
-        int[] ans = new int[n - k + 1];
-        ans[0] = pq.peek()[0];
-        for (int i = k; i < n; ++i) {
-            pq.offer(new int[]{nums[i], i});
-            while (pq.peek()[1] <= i - k) {
-                pq.poll();
+            // 添加当前值对应的数组下标
+            queue.addLast(i);
+            // 判断当前队列中队首的值是否有效
+            if(queue.peek() <= i-k){
+                queue.poll();
             }
-            ans[i - k + 1] = pq.peek()[0];
+            // 当窗口长度为k时 保存当前窗口中最大值
+            if(i+1 >= k){
+                result[i+1-k] = nums[queue.peek()];
+            }
         }
-        return ans;
+        return result;
     }
+
 }
